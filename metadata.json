@@ -1,0 +1,6 @@
+{
+  "name": "Combat Fitness Club",
+  "description": "Premium gym and fitness club in Nagpur, Maharashtra. Strength training, fitness conditioning, interactive BMI calculator, and WhatsApp membership enquiries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
