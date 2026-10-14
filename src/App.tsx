@@ -4,6 +4,7 @@ import { Hero } from './components/Hero.tsx';
 import { TrustBar } from './components/TrustBar.tsx';
 import { AboutSection } from './components/AboutSection.tsx';
 import { TrainingSection } from './components/TrainingSection.tsx';
+import { ProgramsSection } from './components/ProgramsSection.tsx';
 import { PricingSection } from './components/PricingSection.tsx';
 import { BmiCalculator } from './components/BmiCalculator.tsx';
 import { FacilitiesGallery } from './components/FacilitiesGallery.tsx';
@@ -33,6 +34,9 @@ export default function App() {
 
         {/* 02. Your Fitness Journey (Strength, Fitness, Endurance) */}
         <TrainingSection />
+
+        {/* Training Programs (HIIT, Cardio, Zumba, Strength, Functional, Core) */}
+        <ProgramsSection />
 
         {/* Membership Plans & Pricing */}
         <PricingSection />

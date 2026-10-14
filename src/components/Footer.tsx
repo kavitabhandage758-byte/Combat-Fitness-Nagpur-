@@ -9,6 +9,7 @@ export const Footer: React.FC = () => {
   const footerLinks = [
     { label: 'About Club', href: '#about' },
     { label: 'Training Goals', href: '#training' },
+    { label: 'Workout Programs', href: '#programs' },
     { label: 'Membership Plans', href: '#pricing' },
     { label: 'BMI Screening', href: '#bmi-calculator' },
     { label: 'Inside Club', href: '#facilities' },

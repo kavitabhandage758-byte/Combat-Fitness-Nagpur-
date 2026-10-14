@@ -8,6 +8,7 @@ export const Navbar: React.FC = () => {
   const navLinks = [
     { label: 'About', href: '#about' },
     { label: 'Training', href: '#training' },
+    { label: 'Programs', href: '#programs' },
     { label: 'Pricing', href: '#pricing' },
     { label: 'BMI Calculator', href: '#bmi-calculator' },
     { label: 'Inside Club', href: '#facilities' },
