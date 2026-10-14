@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Flame, Activity, Music, Dumbbell, Zap, ShieldCheck, ArrowUpRight, Clock, Target, Users } from 'lucide-react';
 import { createWhatsAppLink } from '../utils/whatsapp.ts';
+import { IMAGES } from '../data/gymData.ts';
 
 interface ProgramItem {
   id: string;
@@ -28,7 +29,7 @@ export const ProgramsSection: React.FC = () => {
       categoryGroup: 'high-intensity',
       intensity: 'High',
       duration: '45 mins',
-      image: '/src/assets/images/program_hiit_workout_1791954133016.jpg',
+      image: IMAGES.hiit,
       description: 'Explosive intervals alternating maximum cardiovascular output with short recovery intervals using battle ropes, kettlebells, and plyometrics.',
       benefits: ['Peak calorie expenditure', 'Elevated cardiovascular stamina', 'Metabolic afterburn (EPOC)'],
       bestFor: 'Rapid conditioning & fat loss',
@@ -41,7 +42,7 @@ export const ProgramsSection: React.FC = () => {
       categoryGroup: 'cardio-dance',
       intensity: 'Moderate–High',
       duration: '50 mins',
-      image: '/src/assets/images/cardio_conditioning_1791909432217.jpg',
+      image: IMAGES.cardio,
       description: 'Progressive aerobic programming utilizing commercial ergometers, rowers, air bikes, and treadmill sprint intervals to elevate lung capacity.',
       benefits: ['Heart health & stamina', 'High-volume endurance foundation', 'Low-impact joint conditioning'],
       bestFor: 'Stamina building & sports endurance',
@@ -54,7 +55,7 @@ export const ProgramsSection: React.FC = () => {
       categoryGroup: 'cardio-dance',
       intensity: 'Moderate–High',
       duration: '60 mins',
-      image: '/src/assets/images/program_zumba_studio_1791954133279.jpg',
+      image: IMAGES.zumba,
       description: 'A vibrant, music-fueled workout combining dynamic Latin rhythms, dance choreography, and full-body cardio intervals for an exhilarating group sweat.',
       benefits: ['Joyful whole-body cardio', 'Coordination & balance boost', 'Mood enhancement & community energy'],
       bestFor: 'Social workout lovers & active calorie burn',
@@ -67,7 +68,7 @@ export const ProgramsSection: React.FC = () => {
       categoryGroup: 'strength-functional',
       intensity: 'High',
       duration: '60 mins',
-      image: '/src/assets/images/strength_training_1791909432148.jpg',
+      image: IMAGES.strength,
       description: 'Structured compound lifting protocols focused on barbell squats, deadlifts, bench presses, and targeted hypertrophy stations with Olympic plates.',
       benefits: ['Dense lean muscle development', 'Bone density & joint resilience', 'Raw neuromuscular power'],
       bestFor: 'Muscle hypertrophy & foundational power',
@@ -80,7 +81,7 @@ export const ProgramsSection: React.FC = () => {
       categoryGroup: 'strength-functional',
       intensity: 'High',
       duration: '50 mins',
-      image: '/src/assets/images/program_functional_cross_1791954133607.jpg',
+      image: IMAGES.functional,
       description: 'Athletic multi-planar movement patterns combining slam balls, box jumps, sled pushes, and core anti-rotation drills for dynamic athleticism.',
       benefits: ['Real-world functional fitness', 'Rotational torque & agility', 'Total-body kinetic chain sync'],
       bestFor: 'Athletic agility & functional power',
@@ -93,7 +94,7 @@ export const ProgramsSection: React.FC = () => {
       categoryGroup: 'high-intensity',
       intensity: 'All Fitness Levels',
       duration: '40 mins',
-      image: '/src/assets/images/hero_combat_gym_1791909430735.jpg',
+      image: IMAGES.hero,
       description: 'Targeted deep core stabilization, hip/shoulder mobility drills, spinal decompressions, and active recovery routines preventing training plateaus.',
       benefits: ['Injury prevention & joint health', 'Postural alignment correction', 'Deep abdominal & lower back support'],
       bestFor: 'Posture correction & recovery',

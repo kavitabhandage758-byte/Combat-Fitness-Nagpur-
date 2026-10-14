@@ -1,11 +1,22 @@
 import { FaqItem, ReviewHighlight, TrainingCard, FacilityImage } from '../types/index.ts';
 
-// High-fidelity image assets generated for Combat Fitness Club
+// High-fidelity image assets bundled via Vite for reliable production builds
+import heroImg from '../assets/images/hero_combat_gym_1791909430735.jpg';
+import facilityFloorImg from '../assets/images/facility_gym_floor_1791909432129.jpg';
+import strengthImg from '../assets/images/strength_training_1791909432148.jpg';
+import cardioImg from '../assets/images/cardio_conditioning_1791909432217.jpg';
+import hiitImg from '../assets/images/program_hiit_workout_1791954133016.jpg';
+import zumbaImg from '../assets/images/program_zumba_studio_1791954133279.jpg';
+import functionalImg from '../assets/images/program_functional_cross_1791954133607.jpg';
+
 export const IMAGES = {
-  hero: '/src/assets/images/hero_combat_gym_1791909430735.jpg',
-  facilityFloor: '/src/assets/images/facility_gym_floor_1791909432129.jpg',
-  strength: '/src/assets/images/strength_training_1791909432148.jpg',
-  cardio: '/src/assets/images/cardio_conditioning_1791909432217.jpg',
+  hero: heroImg,
+  facilityFloor: facilityFloorImg,
+  strength: strengthImg,
+  cardio: cardioImg,
+  hiit: hiitImg,
+  zumba: zumbaImg,
+  functional: functionalImg,
 };
 
 export const GYM_DETAILS = {
